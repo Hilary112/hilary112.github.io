@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Podshop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        h1 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        body {
+            background-color: #7A598A;
+        }
+
+        h2 {
+            text-align: center;
+            color: #fff;
+            font-size: xx-large;
+        }
+
+        h4 {
+            text-align: center;
+            text-align: justify;
+            color: #fff;
+        }
+
+        .col-sm-8 {
+            padding-left: 1cm;
+        }
+
+        .jumbotron {
+            background-color: #7A598A;
+            color: #7A598A;
+        }
+
+        .jumbotron {
+            background-color: #7A598A;
+            color: #fff;
+        }
+
+        .container-fluid {
+            padding: 1px 50px;
+            background-color: #7A598A;
+        }
+
+        .navbar {
+            margin-bottom: 0;
+            background-color: #7A598A;
+            z-index: 9999;
+            border: 0;
+            font-size: 12px;
+            letter-spacing: 4px;
+            border-radius: 0;
+            color: #fff;
+        }
+
+        .containerp {
+            padding: 1px 50px;
+            background-color: #7A598A;
+        }
+
+        .containerflow {
+            padding: 1px 50px;
+            background-color: #7A598A;
+        }
+
+        .col-md-6 {
+            max-width: 50%;
+            position: relative;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #7A598A;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Podshop</span>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1>PODSHOP</h1>
+        <p>A workstation for podcasters</p>
+    </div>
+
+    <div class="containerp">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="videos/prototype.mp4"></iframe>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <h1>THE SOFTWARE</h1>
+        <p>For this project, I have created a digital audio workstation application entitled Podshop. The main functionality of the application is to record, edit and master sound files. The application is specifically directed towards new podcasters who have little experience in sound production. The application functions similarly to standard music based open-source DAWs like Audacity and Reaper.  This is the first DAW specifically for podcasting, and the central aim is to provide an accessible user experience for people who may not have a background in music or sound production. As a result, the application only features interactions that a podcaster would need. This allows for a cleaner and less intimidating user interface. The main user experiences are setting up and recording an audio track, editing the track, applying FX to the track, and rendering the track when it is complete. When using Podshop, the user will be working mainly with sound files (WAV/MP3) and Boolean data types. The Boolean data type is one that has two possible binary values or outcomes denoting either true or false. The Boolean data type is utilised in the one/off buttons in the DAW, for example the FX button. The main types of user interactions for this application are mouse clicks, keyboard events and interactions with external technology (microphone, headset, or MIDI technology). To provide a more seamless user experience, there are keyboard shortcuts for each user interaction. The product does not need internet to run and functions without cloud services. I made this decision, as it is important for users to utilise the software in a variety of locations where they may not always have an internet connection. Rather than saving projects on the cloud, the user can save each of their sound files to their device. For the software to be fully effective it is important that the user has access to external technologies such as a microphone or headset. The user may use either external or internal devices such as the built-in microphone or speaker on their laptop. To make utilising external devices as accessible as possible I have included a drop-down menu for both the microphone and speaker on the main interface. If the user wishes to set up a sound interface or a MIDI device they can select these in the preferences window.  </p>
+    </div>
+
+    <div class="repeating-section">
+        <div class="container">
+            <section>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>DESIGN PRINCIPLES</h1>
+                        <p>
+                            For this project, I consulted Scott’s book entitled Designing Web Interfaces for further information regarding design principles and theory. As my central design priority was to provide ease of use for the user I decided to follow the ‘stay on the page’ principle (Scott 102). Scott notes how this principle creates a strong sense of flow for the user by creating a sense of ‘continuous visual perception (103).’ I achieved the ‘stay on the page’ principle by designing one main page for the user interface that updates accordingly (102). Any additional information like effects or preferences will appear in a dialog box. To create a consistent design language, I utilised various shades of purple and complimentary colours throughout my design. I also prioritised consistency in my design elements the create a sense of cohesion across the application. To create a user friendly and accessible application, I also decided to utilise progressive disclosure. Scott notes how progressive disclosure is important as it allows the designer to avoid ‘cluttering the interface’ with unnecessary information (284)..
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/mockuppodshop.png">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="containerflow">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>
+                        click to expand
+                    </p>
+                    <a href="/images/flowchart.png" id="pop">
+                        <img src="/images/flowchart.png" style="width: 400px; height: 264px;">
+                    </a>
+                </div>
+                <div class="col-sm-8">
+                    <h1> DESIGN PROCESS </h1>
+                    <p>As part of my design process, I created the prototype and the user flow map in Adobe XD. I began by creating a basic outline of the user interface. To create an inviting user experience, I focused on clarity, simplification, and minimalism. The interface only features the key essentials like the tracks and track options along with the sound bar that features options to play/pause or stop media. The prototype that I created follows the user’s journey of recording, editing, mixing, and rendering a podcast from start to finish. Cronenwett notes how by analysing the user’s journey the designer can ‘facilitate shared understanding’ to create an overall better design. As I have experience teaching podcasting workshops, I understand the difficulties new users may have with this process, and I have incorporated this process into my design. To further illustrate the design process, I will carry out an analysis of two user scenarios. (Examples available in word file) </p>
+                </div>
+            </div>
+
+            <div class="repeating-section">
+                <div class="container">
+                    <section>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1>COMPARISONS</h1>
+                                <p>
+
+                                    Reaper is a DAW directed towards ‘mission-critical professional environments to
+                                    students' laptops (Reaper).’ As the functionality of the application is quite
+                                    advanced, the application can be daunting to new users. The application often
+                                    requires multiple steps for basic tasks and features a variety of complicated
+                                    options and preferences for sound professionals. As a result, Reaper is often an
+                                    inaccessible software for new podcasters. When designing Podshop I incorporated the
+                                    strong aspects of Reaper’s functionality and visually simplified them for a
+                                    less-experienced user group.
+
+                                    Audacity is Podshop’s main competition as it is an ‘easy-to-use, multi-track audio
+                                    editor’ utilised by many podcasters (Audacity). The functionality of audacity is
+                                    quite limited in comparison to Podshop and the design is cluttered and inconsistent.
+                                    In comparison to Audacity, Podshop has a more consistent design language and
+                                    stronger editing functionality for podcasters. For example, Audacity doesn’t offer
+                                    the option to apply non-destructive effects to the audio such as EQ and compression,
+                                    features which can greatly add to a podcast.
+
+
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/reaper.png">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+                <div class="footer">
+                    <p>Podshop - Hilary Barry - Assignment Four</p>
+                </div>
+
+</body>
+</html>
+</html>
